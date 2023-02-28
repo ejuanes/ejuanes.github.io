@@ -1,36 +1,38 @@
 <head>
  	<script src="jquery-3.6.1.js" type="text/javascript"></script>   
 	<script>
-	$(document).ready(function(){
-		const date = new Date();
-	var month = date.getMonth()+1;
-	var day = date.getDate();
-	var year = date.getFullYear();
-	var dateId = year.toString()+month.toString()+day.toString();
+var open_menu_button = document.querySelector('.open-menu');
+var menu = document.querySelector('header nav ul');
+  
+open_menu_button.addEventListener('click', function() {
+    if (menu.style.display == 'block') {
+        menu.style.display = 'none';
+    } else {
+        menu.style.display = 'block';
+    }
+});
 
-    $("#"+dateId).addClass("selected");
+document.querySelector('.response').innerHTML = 'Un momento, por favor...';
+const request = new XMLHttpRequest();
+const url = 'https://jsonplaceholder.typicode.com/posts';
+request.open("GET", url);
+request.send();
 
-
-	});
-	
-	
-	const request = new XMLHttpRequest();
-	const url = 'https://jsonplaceholder.typicode.com/posts';
-	request.open("GET", url);
-	request.send();
-	 
-	request.onreadystatechange = (e) => {
-		if (request.readyState == 4 && request.status == 200) {
-			const posts = JSON.parse(request.responseText);
-			let html = '<div class="posts">';
-			posts.forEach(function(post, index) {
-				console.log(${index}+' : '+${post.title});
-				html += '<div class="post card"><div class="card-header">${post.title}</div><div class="card-body">${post.body}</div></div>';
-			});
-			html += '</div>';
-			document.querySelector('.response').innerHTML = html;
-		}
-	}
+request.onreadystatechange = (e) => {
+    if (request.readyState == 4 && request.status == 200) {
+        const posts = JSON.parse(request.responseText);
+        let html = '<div class="posts">';
+        posts.forEach(function(post, index) {
+            console.log(`${index} : ${post.title}`);
+            html += `<div class="post card">
+                        <div class="card-header">${post.title}</div>
+                        <div class="card-body">${post.body}</div>
+                    </div>`;
+        });
+        html += '</div>';
+        document.querySelector('.response').innerHTML = html;
+    }
+}
 
 
 	
