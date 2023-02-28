@@ -12,6 +12,33 @@
 
 
 	});
+	
+	
+		var xmlhttp = new XMLHttpRequest();
+		var url = "enero.txt";
+
+		xmlhttp.onreadystatechange = function() {
+		  if (this.readyState == 4 && this.status == 200) {
+			var myArr = JSON.parse(this.responseText);
+			myFunction(myArr);
+		  }
+		};
+		xmlhttp.open("GET", url, true);
+		xmlhttp.send();
+
+		function myFunction(arr) {
+		  var out = "";
+		  var i;
+		  for(i = 0; i < arr.length; i++) {
+			out += '<table style="color:white; border: 1px solid white;"><tr><td style="color:white; border: 1px solid white;">' + arr[i].day + '</td>' + 
+			'<td style="color:white; border: 1px solid white;">' + arr[i].weight + '</td>' +
+			'<td style="color:white; border: 1px solid white;">' + arr[i].dumbbell + '</td>' +
+			'<td style="color:white; border: 1px solid white;">' + arr[i].speed + '</td></tr></table>';
+		  }
+		  document.getElementById("id01").innerHTML = out;
+		}
+	
+	
 
 
 	
@@ -4046,6 +4073,9 @@
 	  <br>
 	  <br>
 	  <br>
+	  
+	  <div id="id01" style="color:white"></div>
+	  
         <div class="summaryContainerWide-DS-EntryPoint1-1">
           <div class="circleChartContainer-DS-EntryPoint1-1">
             <div class="circleInternalInfo-DS-EntryPoint1-1">
