@@ -29,12 +29,15 @@
 		function myFunction(arr) {
 		  var out = "";
 		  var i;
+		  out="<table style="color:white; border: 1px solid white;"><thead><th>Día</th><th>Peso</th><th>Pesas</th><th>Velocidad</th></thead><tbody>";
 		  for(i = 0; i < arr.length; i++) {
-			out += '<table style="color:white; border: 1px solid white;"><thead><th>Día</th><th>Peso</th><th>Pesas</th><th>Velocidad</th></thead><tbody><tr><td style="color:white; border: 1px solid white;">' + arr[i].day + '</td>' + 
+			out += '<tr><td style="color:white; border: 1px solid white;">' + arr[i].day + '</td>' + 
 			'<td style="color:white; border: 1px solid white;">' + arr[i].weight + '</td>' +
 			'<td style="color:white; border: 1px solid white;">' + arr[i].dumbbell + '</td>' +
-			'<td style="color:white; border: 1px solid white;">' + arr[i].speed + '</td></tr></tbody></table>';
+			'<td style="color:white; border: 1px solid white;">' + arr[i].speed + '</td></tr>';
 		  }
+		  
+		  out += '</tbody></table>';
 		  document.getElementById("id01").innerHTML = out;
 		}
 	
