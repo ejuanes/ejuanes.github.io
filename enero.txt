@@ -91,33 +91,33 @@
 },
 {
 "day": "16",
-"weight": "0",
+"weight": "90.7",
 "dumbbell": "0",
 "speed": "0"
 },
 {
 "day": "17",
-"weight": "0",
-"dumbbell": "0",
-"speed": "0"
+"weight": "89.7",
+"dumbbell": "35",
+"speed": "8"
 },
 {
 "day": "18",
-"weight": "0",
-"dumbbell": "0",
-"speed": "0"
+"weight": "89.1",
+"dumbbell": "35",
+"speed": "8"
 },
 {
 "day": "19",
-"weight": "0",
-"dumbbell": "0",
-"speed": "0"
+"weight": "88.5",
+"dumbbell": "35",
+"speed": "8"
 },
 {
 "day": "20",
-"weight": "0",
-"dumbbell": "0",
-"speed": "0"
+"weight": "88.8",
+"dumbbell": "35",
+"speed": "8"
 },
 {
 "day": "21",
