@@ -2,7 +2,7 @@
  	<script src="jquery-3.6.1.js" type="text/javascript"></script>   
 	<script>
 		var xmlhttp = new XMLHttpRequest();
-		var url = "myTutorials.txt";
+		var url = "data.txt";
 
 		xmlhttp.onreadystatechange = function() {
 		  if (this.readyState == 4 && this.status == 200) {
@@ -17,8 +17,8 @@
 		  var out = "";
 		  var i;
 		  for(i = 0; i < arr.length; i++) {
-			out += '<td>' + arr[i].url + '</td>' + 
-			'<td>' + arr[i].display + '</td>';
+			out += '<td>' + arr[i].url + '</td><tr>' + 
+			'<td>' + arr[i].display + '</td><tr>';
 		  }
 		  document.getElementById("id01").innerHTML = out;
 		}
