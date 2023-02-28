@@ -17,8 +17,8 @@
 		  var out = "";
 		  var i;
 		  for(i = 0; i < arr.length; i++) {
-			out += '<td>' + arr[i].day + '</td><tr>' + 
-			'<td>' + arr[i].weight + '</td><tr>';
+			out += '<table style="border: 1px solid white;"><td>' + arr[i].day + '</td>' + 
+			'<td>' + arr[i].weight + '</td><tr></table>';
 		  }
 		  document.getElementById("id01").innerHTML = out;
 		}
