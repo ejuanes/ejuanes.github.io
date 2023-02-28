@@ -12,6 +12,25 @@
 
 
 	});
+	
+	
+	const request = new XMLHttpRequest();
+	const url = 'https://jsonplaceholder.typicode.com/posts';
+	request.open("GET", url);
+	request.send();
+	 
+	request.onreadystatechange = (e) => {
+		if (request.readyState == 4 && request.status == 200) {
+			const posts = JSON.parse(request.responseText);
+			let html = '<div class="posts">';
+			posts.forEach(function(post, index) {
+				console.log(`${index} : ${post.title}`);
+				html += '<div class="post card"><div class="card-header">${post.title}</div><div class="card-body">${post.body}</div></div>';
+			});
+			html += '</div>';
+			document.querySelector('.response').innerHTML = html;
+		}
+	}
 
 
 	
@@ -4031,6 +4050,7 @@
 	  <br>
 	  <br>
 	  <br>
+	  <div class="response">Prueba</div>
         <div class="summaryContainerWide-DS-EntryPoint1-1">
           <div class="circleChartContainer-DS-EntryPoint1-1">
             <div class="circleInternalInfo-DS-EntryPoint1-1">
@@ -4051,6 +4071,9 @@
               <circle cx="78" cy="78" r="68" class="rainnyPercentage-DS-EntryPoint1-1" style="stroke-dashoffset:38.909090909090914;transform:rotate(-57.27272727272727deg)" stroke="url(#gradientRainny)"></circle>
             </svg>
           </div>
+		  
+		  
+		  
           <div class="summaryItemContainerWide-DS-EntryPoint1-1">
             <div>
               <div class="summaryItemGroup-DS-EntryPoint1-1">
