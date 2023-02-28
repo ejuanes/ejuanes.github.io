@@ -1,14 +1,14 @@
 [
 {
 "day": "1",
-"weight": "https://www.w3schools.com/js/default.asp"
+"weight": "84,3"
 },
 {
 "day": "2",
-"weight": "https://www.w3schools.com/html/default.asp"
+"weight": "85,9"
 },
 {
 "day": "3",
-"weight": "https://www.w3schools.com/css/default.asp"
+"weight": "86,2"
 }
 ]
