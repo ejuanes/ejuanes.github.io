@@ -2,16 +2,19 @@
 {
 "day": "1",
 "weight": "84.3",
+"dumbbell": "35",
 "speed": "8"
 },
 {
 "day": "2",
 "weight": "85.9",
+"dumbbell": "35",
 "speed": "8"
 },
 {
 "day": "3",
 "weight": "86.2",
+"dumbbell": "35",
 "speed": "8"
 }
 ]
