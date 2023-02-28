@@ -133,33 +133,33 @@
 },
 {
 "day": "23",
-"weight": "0",
+"weight": "88.4",
 "dumbbell": "0",
 "speed": "0"
 },
 {
 "day": "24",
-"weight": "0",
-"dumbbell": "0",
-"speed": "0"
+"weight": "88.9",
+"dumbbell": "35",
+"speed": "8"
 },
 {
 "day": "25",
-"weight": "0",
-"dumbbell": "0",
-"speed": "0"
+"weight": "89.0",
+"dumbbell": "35",
+"speed": "8"
 },
 {
 "day": "26",
-"weight": "0",
-"dumbbell": "0",
-"speed": "0"
+"weight": "89.2",
+"dumbbell": "35",
+"speed": "8"
 },
 {
 "day": "27",
-"weight": "0",
-"dumbbell": "0",
-"speed": "0"
+"weight": "89.1",
+"dumbbell": "35",
+"speed": "8"
 },
 {
 "day": "28",
@@ -175,14 +175,14 @@
 },
 {
 "day": "30",
-"weight": "0",
-"dumbbell": "0",
-"speed": "0"
+"weight": "89.4",
+"dumbbell": "35",
+"speed": "8"
 },
 {
 "day": "31",
-"weight": "0",
-"dumbbell": "0",
-"speed": "0"
+"weight": "88.5",
+"dumbbell": "35",
+"speed": "8"
 }
 ]
