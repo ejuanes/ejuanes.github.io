@@ -2,218 +2,218 @@
 {
 "day": "1",
 "weight": "0",
-"dumbbellPullover": "0",
-"dumbbellFly": "0",
+"pull": "0",
+"fly": "0",
 "speed": "0"
 },
 {
 "day": "2",
 "weight": "90.4",
-"dumbbellPullover": "35",
-"dumbbellFly": "0",
+"pull": "35",
+"fly": "0",
 "speed": "10"
 },
 {
 "day": "3",
 "weight": "90.8",
-"dumbbellPullover": "35",
-"dumbbellFly": "0",
+"pull": "35",
+"fly": "0",
 "speed": "8"
 },
 {
 "day": "4",
 "weight": "91.2",
-"dumbbellPullover": "35",
-"dumbbellFly": "0",
+"pull": "35",
+"fly": "0",
 "speed": "8"
 },
 {
 "day": "5",
 "weight": "90.5",
-"dumbbellPullover": "35",
-"dumbbellFly": "0",
+"pull": "35",
+"fly": "0",
 "speed": "8"
 },
 {
 "day": "6",
 "weight": "0",
-"dumbbellPullover": "0",
-"dumbbellFly": "0",
+"pull": "0",
+"fly": "0",
 "speed": "0"
 },
 {
 "day": "7",
 "weight": "0",
-"dumbbellPullover": "0",
-"dumbbellFly": "0",
+"pull": "0",
+"fly": "0",
 "speed": "0"
 },
 {
 "day": "8",
 "weight": "0",
-"dumbbellPullover": "0",
-"dumbbellFly": "0",
+"pull": "0",
+"fly": "0",
 "speed": "0"
 },
 {
 "day": "9",
 "weight": "90.2",
-"dumbbellPullover": "0",
-"dumbbellFly": "0",
+"pull": "0",
+"fly": "0",
 "speed": "0"
 },
 {
 "day": "10",
 "weight": "90.1",
-"dumbbellPullover": "35",
-"dumbbellFly": "0",
+"pull": "35",
+"fly": "0",
 "speed": "8"
 },
 {
 "day": "11",
 "weight": "91.1",
-"dumbbellPullover": "35",
-"dumbbellFly": "0",
+"pull": "35",
+"fly": "0",
 "speed": "8"
 },
 {
 "day": "12",
 "weight": "89.4",
-"dumbbellPullover": "35",
-"dumbbellFly": "0",
+"pull": "35",
+"fly": "0",
 "speed": "8"
 },
 {
 "day": "13",
 "weight": "90.2",
-"dumbbellPullover": "35",
-"dumbbellFly": "0",
+"pull": "35",
+"fly": "0",
 "speed": "8"
 },
 {
 "day": "14",
 "weight": "0",
-"dumbbellPullover": "0",
-"dumbbellFly": "0",
+"pull": "0",
+"fly": "0",
 "speed": "0"
 },
 {
 "day": "15",
 "weight": "0",
-"dumbbellPullover": "0",
-"dumbbellFly": "0",
+"pull": "0",
+"fly": "0",
 "speed": "0"
 },
 {
 "day": "16",
 "weight": "90.7",
-"dumbbellPullover": "0",
-"dumbbellFly": "0",
+"pull": "0",
+"fly": "0",
 "speed": "0"
 },
 {
 "day": "17",
 "weight": "89.7",
-"dumbbellPullover": "35",
-"dumbbellFly": "0",
+"pull": "35",
+"fly": "0",
 "speed": "8"
 },
 {
 "day": "18",
 "weight": "89.1",
-"dumbbellPullover": "35",
-"dumbbellFly": "0",
+"pull": "35",
+"fly": "0",
 "speed": "8"
 },
 {
 "day": "19",
 "weight": "88.5",
-"dumbbellPullover": "35",
-"dumbbellFly": "0",
+"pull": "35",
+"fly": "0",
 "speed": "8"
 },
 {
 "day": "20",
 "weight": "88.8",
-"dumbbellPullover": "35",
-"dumbbellFly": "0",
+"pull": "35",
+"fly": "0",
 "speed": "8"
 },
 {
 "day": "21",
 "weight": "0",
-"dumbbellPullover": "0",
-"dumbbellFly": "0",
+"pull": "0",
+"fly": "0",
 "speed": "0"
 },
 {
 "day": "22",
 "weight": "0",
-"dumbbellPullover": "0",
-"dumbbellFly": "0",
+"pull": "0",
+"fly": "0",
 "speed": "0"
 },
 {
 "day": "23",
 "weight": "88.4",
-"dumbbellPullover": "0",
-"dumbbellFly": "0",
+"pull": "0",
+"fly": "0",
 "speed": "0"
 },
 {
 "day": "24",
 "weight": "88.9",
-"dumbbellPullover": "35",
-"dumbbellFly": "0",
+"pull": "35",
+"fly": "0",
 "speed": "8"
 },
 {
 "day": "25",
 "weight": "89.0",
-"dumbbellPullover": "35",
-"dumbbellFly": "0",
+"pull": "35",
+"fly": "0",
 "speed": "8"
 },
 {
 "day": "26",
 "weight": "89.2",
-"dumbbellPullover": "35",
-"dumbbellFly": "0",
+"pull": "35",
+"fly": "0",
 "speed": "8"
 },
 {
 "day": "27",
 "weight": "89.1",
-"dumbbellPullover": "35",
-"dumbbellFly": "0",
+"pull": "35",
+"fly": "0",
 "speed": "8"
 },
 {
 "day": "28",
 "weight": "0",
-"dumbbellPullover": "0",
-"dumbbellFly": "0",
+"pull": "0",
+"fly": "0",
 "speed": "0"
 },
 {
 "day": "29",
 "weight": "0",
-"dumbbellPullover": "0",
-"dumbbellFly": "0",
+"pull": "0",
+"fly": "0",
 "speed": "0"
 },
 {
 "day": "30",
 "weight": "89.4",
-"dumbbellPullover": "35",
-"dumbbellFly": "0",
+"pull": "35",
+"fly": "0",
 "speed": "8"
 },
 {
 "day": "31",
 "weight": "88.5",
-"dumbbellPullover": "35",
-"dumbbellFly": "0",
+"pull": "35",
+"fly": "0",
 "speed": "8"
 }
 ]
