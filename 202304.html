@@ -13,8 +13,8 @@
 			if (request.readyState == 4 && request.status == 200) {
 				const posts = JSON.parse(request.responseText);
 				let html = '<div class="posts">';
-				posts.forEach(function(post, index) {
-					console.log(`${index} : ${post.id}`);
+				posts.forEach(function(post, index, a) {
+					console.log(`${index} : ${post.title}`);
 					html += `<div class="post card"><div class="card-header">${post.title}</div><div class="card-body">${post.body}</div></div>`;
 				});
 				html += '</div>';
